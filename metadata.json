@@ -1,0 +1,7 @@
+{
+  "name": "Sandy Majeke Senior Secondary School",
+  "description": "Sandy Majeke SSS is a public secondary school in Qumbu, 5180, Eastern Cape.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
