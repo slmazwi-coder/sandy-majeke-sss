@@ -1,51 +1,35 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { BookOpen, Calculator, Globe, Languages, FlaskConical, Briefcase, Palette } from 'lucide-react';
+import { BookOpen, Calculator, Languages, FlaskConical, Leaf, History } from 'lucide-react';
 
 const subjects = [
   {
-    category: 'Mathematics & Science',
+    category: 'Languages',
     color: 'bg-red-50 border-red-200',
     iconColor: 'text-school-blue',
     items: [
+      { name: 'isiXhosa Home Language', icon: Languages, description: 'Mother tongue language development, literature and oral communication in isiXhosa.' },
+      { name: 'English First Additional Language', icon: Languages, description: 'English as a first additional language, focusing on reading, writing, listening and speaking.' },
+    ]
+  },
+  {
+    category: 'Mathematics & Science',
+    color: 'bg-red-50 border-red-200',
+    iconColor: 'text-red-700',
+    items: [
       { name: 'Mathematics', icon: Calculator, description: 'Mathematical reasoning, algebra, geometry, trigonometry and calculus for the National Senior Certificate.' },
-      { name: 'Mathematical Literacy', icon: Calculator, description: 'Practical mathematical skills applied to everyday life situations and real-world problem solving.' },
       { name: 'Physical Sciences', icon: FlaskConical, description: 'The study of physics and chemistry — mechanics, electricity, chemical reactions and material science.' },
       { name: 'Life Sciences', icon: FlaskConical, description: 'Biology, ecology, human physiology and environmental studies preparing learners for health and science careers.' },
+      { name: 'Agricultural Sciences', icon: Leaf, description: 'Agricultural principles, plant and animal production, and sustainable farming practices.' },
     ]
   },
   {
-    category: 'Languages',
+    category: 'Social Sciences & Life Orientation',
     color: 'bg-red-50 border-red-200',
     iconColor: 'text-red-700',
     items: [
-      { name: 'English Home Language', icon: Languages, description: 'Advanced English language and literature — reading, writing, communication and literary analysis.' },
-      { name: 'English First Additional Language', icon: Languages, description: 'English as a first additional language for learners with a different home language.' },
-      { name: 'isiZulu', icon: Languages, description: 'Mother tongue language development, literature, and oral communication in isiZulu.' },
-      { name: 'Afrikaans', icon: Languages, description: 'Afrikaans language and literature — reading comprehension, writing and communication skills.' },
-    ]
-  },
-  {
-    category: 'Social Sciences & Commerce',
-    color: 'bg-red-50 border-red-200',
-    iconColor: 'text-red-700',
-    items: [
-      { name: 'History', icon: Globe, description: 'South African and world history — understanding the past to shape the future.' },
-      { name: 'Geography', icon: Globe, description: 'Physical and human geography — climate, landforms, population and environmental management.' },
-      { name: 'Accounting', icon: Briefcase, description: 'Financial record keeping, reporting and analysis for business and personal finance.' },
-      { name: 'Business Studies', icon: Briefcase, description: 'Understanding business environments, management and entrepreneurship.' },
-      { name: 'Economics', icon: Briefcase, description: 'Micro and macroeconomics — market systems, fiscal policy and economic development.' },
+      { name: 'History', icon: History, description: 'South African and world history — understanding the past to shape the future.' },
       { name: 'Life Orientation', icon: BookOpen, description: 'Personal development, citizenship, physical education and career guidance (compulsory for all grades).' },
-    ]
-  },
-  {
-    category: 'Arts & Technology',
-    color: 'bg-purple-50 border-purple-200',
-    iconColor: 'text-purple-700',
-    items: [
-      { name: 'Visual Arts', icon: Palette, description: 'Drawing, painting, sculpture and art history — developing creative expression and visual literacy.' },
-      { name: 'Dramatic Arts', icon: Palette, description: 'Drama, performance and theatre studies — building confidence and artistic expression.' },
-      { name: 'Engineering Graphics & Design', icon: Palette, description: 'Technical drawing, CAD and design principles for engineering and architecture pathways.' },
     ]
   }
 ];

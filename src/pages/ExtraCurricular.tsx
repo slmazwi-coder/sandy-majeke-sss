@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
-import { Trophy, Music, Users, Star, Dumbbell, Target, BookOpen, Mic, Volleyball } from 'lucide-react';
+import { Trophy, Music, Users, Star, Dumbbell, Target, BookOpen, Mic, Volleyball, Award } from 'lucide-react';
 import { getActivities, type Activity } from '../admin/utils/storage';
 
 const accolades = [
-  { title: "District Football Champions", year: "2024", category: "Sport" },
+  { title: "District Soccer Champions", year: "2024", category: "Sport" },
   { title: "Provincial Netball Participants", year: "2024", category: "Sport" },
   { title: "District Athletics Meet Qualifiers", year: "2024", category: "Sport" },
   { title: "Provincial Debate Participants", year: "2023", category: "Academic" },
@@ -13,7 +13,7 @@ const accolades = [
 
 const ProgramCard: React.FC<{ prog: Activity }> = ({ prog }) => {
   const iconMap: Record<string, React.FC<{ size?: number; className?: string }>> = {
-    'Football': Target, 'Netball': Users, 'Athletics': Trophy, 'Volleyball': Volleyball,
+    'Soccer': Target, 'Netball': Users, 'Athletics': Trophy, 'Volleyball': Volleyball, 'Softball': Award,
     'Debating': Mic, 'Maths Olympiad': BookOpen, 'Science Club': Star,
     'Choir': Music, 'Cultural Dance': Music,
   };

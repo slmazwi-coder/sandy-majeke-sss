@@ -13,7 +13,7 @@ const achievements = [
   {
     year: 'Ongoing',
     title: 'Sports & Athletics',
-    description: 'Our learners participate in football, netball, athletics and volleyball, regularly competing at district and provincial levels.',
+    description: 'Our learners participate in soccer, netball, athletics, volleyball and softball, regularly competing at district and provincial levels.',
     icon: Award,
     highlight: false,
   },

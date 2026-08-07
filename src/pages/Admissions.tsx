@@ -296,7 +296,7 @@ export const Admissions = () => {
               <div>
                 <h2 className="text-2xl font-bold">Application for Admission to School</h2>
                 <p className="text-white/70 text-sm mt-1">
-                  Sandy Majeke Senior Secondary School &nbsp;·&nbsp; Qumbu, 5180, Eastern Cape
+                  Sandy Majeke Senior Secondary School &nbsp;·&nbsp; Mahlungulu location, Qumbu, 5180, Eastern Cape
                 </p>
               </div>
               <div className="text-right text-sm text-white/70">

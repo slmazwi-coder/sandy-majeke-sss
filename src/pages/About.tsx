@@ -21,9 +21,9 @@ export const About = () => {
               <h2 className="text-2xl font-bold text-school-blue">Our School</h2>
             </div>
             <div className="space-y-4 text-gray-600 leading-relaxed text-base">
-              <p>Sandy Majeke Senior Secondary School is a public school situated in Qumbu, 5180, Eastern Cape. The school serves the local community within the OR Tambo District Municipality and is committed to providing quality education in a nurturing environment.</p>
-              <p>We offer the National Senior Certificate (NSC) CAPS curriculum across Grades 8–12, preparing our learners for successful futures.</p>
-              <p>Under the leadership of the Principal, Sandy Majeke SSS is dedicated to academic excellence and holistic development, guided by the motto "Striving for Excellence".</p>
+              <p>Sandy Majeke Senior Secondary School is a public ordinary school located at Mahlungulu location, Qumbu, 5180, Eastern Cape. The school serves the local community and is known for its excellent NSC performance.</p>
+              <p>We offer the National Senior Certificate (NSC) CAPS curriculum across Grades 8–12, including GET and FET phase subjects, preparing our learners for successful futures.</p>
+              <p>Beyond the classroom, we offer netball, soccer, volleyball, athletics and softball, supporting well-rounded learner development. We value respect, integrity and ubuntu, and are guided by the motto "Striving for Excellence".</p>
             </div>
           </motion.div>
 
@@ -77,7 +77,7 @@ export const About = () => {
                 <div className="space-y-4 text-gray-700 text-base sm:text-lg leading-relaxed">
                   <p>At Sandy Majeke Senior Secondary School, we are committed to providing a safe, inclusive and stimulating environment that enables every learner to reach their full potential through quality teaching, strong values and community partnership.</p>
                   <p>We value respect, integrity and ubuntu, and we work together to achieve excellence in all we do. Our commitment to academic excellence and holistic development is unwavering.</p>
-                  <p>Located in Qumbu, 5180, we invite families and learners to join us in this journey of growth, learning, and achievement.</p>
+                  <p>Located at Mahlungulu location, Qumbu, 5180, we invite families and learners to join us in this journey of growth, learning, and achievement.</p>
                 </div>
                 <div className="text-6xl font-serif leading-none mt-2 text-right opacity-40 select-none" style={{ color: '#A31621' }}>"</div>
               </div>

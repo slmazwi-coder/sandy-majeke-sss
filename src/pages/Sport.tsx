@@ -1,9 +1,9 @@
 import React from 'react';
-import { Trophy, CalendarDays, Target, Users, Flag, Volleyball } from 'lucide-react';
+import { Trophy, CalendarDays, Target, Users, Flag, Volleyball, Award } from 'lucide-react';
 
 const sports = [
   {
-    name: 'Football',
+    name: 'Soccer',
     description: 'Training and matches for boys and girls teams across age groups.',
     icon: Target,
   },
@@ -21,6 +21,11 @@ const sports = [
     name: 'Volleyball',
     description: 'Indoor and outdoor volleyball teams competing at district level.',
     icon: Volleyball,
+  },
+  {
+    name: 'Softball',
+    description: 'Softball training and fixtures at school and district level.',
+    icon: Award,
   },
 ];
 
@@ -41,16 +46,18 @@ type Result = {
 };
 
 const fixtures: Fixture[] = [
-  { date: 'TBA', sport: 'Football', opponent: 'TBA', venue: 'TBA', time: 'TBA' },
+  { date: 'TBA', sport: 'Soccer', opponent: 'TBA', venue: 'TBA', time: 'TBA' },
   { date: 'TBA', sport: 'Netball', opponent: 'TBA', venue: 'TBA', time: 'TBA' },
   { date: 'TBA', sport: 'Athletics', opponent: 'TBA', venue: 'TBA', time: 'TBA' },
   { date: 'TBA', sport: 'Volleyball', opponent: 'TBA', venue: 'TBA', time: 'TBA' },
+  { date: 'TBA', sport: 'Softball', opponent: 'TBA', venue: 'TBA', time: 'TBA' },
 ];
 
 const results: Result[] = [
-  { date: 'TBA', sport: 'Football', opponent: 'TBA', venue: 'TBA', result: 'TBA' },
+  { date: 'TBA', sport: 'Soccer', opponent: 'TBA', venue: 'TBA', result: 'TBA' },
   { date: 'TBA', sport: 'Netball', opponent: 'TBA', venue: 'TBA', result: 'TBA' },
   { date: 'TBA', sport: 'Athletics', opponent: 'TBA', venue: 'TBA', result: 'TBA' },
+  { date: 'TBA', sport: 'Volleyball', opponent: 'TBA', venue: 'TBA', result: 'TBA' },
 ];
 
 export const Sport = () => {

@@ -149,16 +149,17 @@ You help parents, learners, guardians and community members with anything about 
 
 School details:
 - Name: Sandy Majeke Senior Secondary School
-- Location: Private Bag X 462, Qumbu, 5180, Eastern Cape
-- Phone: 076 278 8273
-- Email: sandymajeke400979@gmail.com
+- Location: Mahlungulu location, Qumbu, 5180, Eastern Cape
+- Phone: 076 278 8273 / 047 553 2147
+- Email: principal.200400979@ecschools.org.za
 - Motto: "Striving for Excellence"
 - Principal: TBC
-- Deputy Principal: Deputy Principal
 - School hours: Monday–Friday 08:00–14:30
 - Grades: Grades 8 – 12
 - 2027 applications currently open for Grades 8 – 10
 - Matric pass rate: 96.1% (Class of 2024, 51 wrote, 49 passed)
+- Subjects: GET (isiXhosa HL and English FAL) and FET Mathematics, Physical Sciences, Life Sciences, Agricultural Sciences, History, isiXhosa HL and English FAL
+- Sports: Netball, soccer, volleyball, athletics and softball
 
 Be warm, clear and concise. Always encourage. If you are unsure about something very specific, direct them to call or email the school.`;
 
@@ -194,7 +195,7 @@ async function askClaude(userMessage: string): Promise<string> {
     return text;
   } catch (err) {
     console.error('[Chatbot] Claude request failed:', err);
-    return 'I\'m having trouble connecting right now. Please contact the school directly at 0762788273.';
+    return 'I\'m having trouble connecting right now. Please contact the school directly at 076 278 8273.';
   }
 }
 
@@ -308,7 +309,7 @@ export function ChatbotWidget(props: { defaultOpen?: boolean }) {
         {
           id: uid(),
           role: 'bot',
-          text: 'Something went wrong. Please contact the school at 0762788273 or email sandymajeke400979@gmail.com.',
+          text: 'Something went wrong. Please contact the school at 076 278 8273 or email principal.200400979@ecschools.org.za.',
           createdAt: Date.now(),
         },
       ]);

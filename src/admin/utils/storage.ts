@@ -302,9 +302,9 @@ export const setApplications = (items: Application[]) => setItems('admin_applica
 
 // Contact
 const defaultContact: ContactInfo = {
-  address: 'Private Bag X 462, Qumbu, 5180, Eastern Cape',
-  phone: '076 278 8273',
-  email: 'sandymajeke400979@gmail.com',
+  address: 'Mahlungulu location, Qumbu, 5180, Eastern Cape',
+  phone: '076 278 8273 / 047 553 2147',
+  email: 'principal.200400979@ecschools.org.za',
   monThu: '08:00 - 14:30',
   friday: '08:00 - 14:30',
   weekend: 'Closed',
@@ -315,9 +315,9 @@ export const setContact = (info: ContactInfo) => setObject('admin_contact', info
 // About
 const defaultAbout: AboutInfo = {
   historyParagraphs: [
-    'Sandy Majeke Senior Secondary School is a public school situated in Qumbu, 5180, Eastern Cape. The school serves the local community within the OR Tambo District Municipality.',
+    'Sandy Majeke Senior Secondary School is a public ordinary school located at Mahlungulu location, Qumbu, 5180, Eastern Cape. The school serves the local community and is known for its excellent NSC performance.',
     'Guided by the motto "Striving for Excellence", Sandy Majeke SSS is committed to providing quality NSC (CAPS) education from Grades 8 – 12 in a caring and supportive environment.',
-    'The school encourages active participation from parents, guardians and the community to help every learner reach their full potential.'
+    'Beyond academics, the school offers netball, soccer, volleyball, athletics and softball, encouraging active participation and holistic development.'
   ],
   principalName: 'TBC',
   principalTitle: 'Principal',
@@ -331,12 +331,13 @@ export const setAbout = (info: AboutInfo) => setObject('admin_about', info);
 
 // Activities
 const defaultActivities: Activity[] = [
-  { id: '1', name: 'Football', category: 'Sport', description: 'Training and competition at school and district level.', image: '' },
+  { id: '1', name: 'Soccer', category: 'Sport', description: 'Boys and mixed training and competition at school and district level.', image: '' },
   { id: '2', name: 'Netball', category: 'Sport', description: 'Competitive teams across age groups.', image: '' },
   { id: '3', name: 'Athletics', category: 'Sport', description: 'Track and field development and competition.', image: '' },
   { id: '4', name: 'Volleyball', category: 'Sport', description: 'Indoor and outdoor volleyball teams.', image: '' },
-  { id: '5', name: 'Debating', category: 'Academic', description: 'Building critical thinking and communication skills.', image: '' },
-  { id: '6', name: 'Choir', category: 'Culture', description: 'Music and performance for school events and competitions.', image: '' },
+  { id: '5', name: 'Softball', category: 'Sport', description: 'Training and participation in softball fixtures.', image: '' },
+  { id: '6', name: 'Debating', category: 'Academic', description: 'Building critical thinking and communication skills.', image: '' },
+  { id: '7', name: 'Choir', category: 'Culture', description: 'Music and performance for school events and competitions.', image: '' },
 ];
 export const getActivities = () => (getItems<Activity>('admin_activities').length ? getItems<Activity>('admin_activities') : defaultActivities);
 export const setActivities = (items: Activity[]) => setItems('admin_activities', items);

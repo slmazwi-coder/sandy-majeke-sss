@@ -29,11 +29,15 @@ export const Footer = () => {
             <ul className="space-y-3 text-white/80 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin className="shrink-0 mt-0.5" size={16} />
-                <span>Qumbu, 5180</span>
+                <span>Mahlungulu location, Qumbu, 5180</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} className="shrink-0" />
                 <span>076 278 8273 / 047 553 2147</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Mail size={16} className="shrink-0" />
+                <span>principal.200400979@ecschools.org.za</span>
               </li>
             </ul>
           </div>

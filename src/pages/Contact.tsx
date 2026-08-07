@@ -17,7 +17,7 @@ export const Contact = () => {
                   <MapPin className="shrink-0 mt-0.5 text-school-blue" size={20} />
                   <div>
                     <p className="font-semibold">Physical Address</p>
-                    <p className="text-sm text-gray-500">Qumbu, 5180</p>
+                    <p className="text-sm text-gray-500">Mahlungulu location, Qumbu, 5180</p>
                     <p className="text-sm text-gray-500">Private Bag X 462, Qumbu, 5180</p>
                     <p className="text-sm text-gray-500">Eastern Cape, South Africa</p>
                   </div>
@@ -34,7 +34,7 @@ export const Contact = () => {
                   <Mail className="shrink-0 mt-0.5 text-school-blue" size={20} />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-sm text-gray-500">sandymajeke400979@gmail.com</p>
+                    <p className="text-sm text-gray-500">principal.200400979@ecschools.org.za</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 text-gray-700">
